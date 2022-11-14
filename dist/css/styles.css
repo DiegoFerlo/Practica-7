@@ -360,4 +360,36 @@ a {
   color: inherit;
 }
 
+.header {
+  height: 100px;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+}
+.header__items--image {
+  width: 100%;
+}
+.header__items {
+  background-color: hsl(256deg, 26%, 20%);
+  height: 1150px;
+  color: white;
+  align-items: center;
+}
+
+.hamburger {
+  width: 32px;
+  height: 32px;
+}
+
+.menu {
+  display: none;
+}
+
 /* ESTILOS DEL FOOTER */
+.logo {
+  height: 18px;
+  width: 112px;
+}
